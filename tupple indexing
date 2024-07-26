@@ -1,0 +1,4 @@
+t=("gun","run","bun")
+print(t[1])
+run
+
