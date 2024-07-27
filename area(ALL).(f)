@@ -1,0 +1,20 @@
+def circle(r):
+    return 3.14*r*r
+def square(s):
+    return s*s
+def rectangle(l,b,h):
+    return l*b*h
+def triangfle(m,n):
+    return(1/2)*m*n
+R=int (input("enter R value:"))
+print("area of circle is{}".format (circle(R)))
+S=int(input("enter S value:"))
+print("area of square is {}".format(square(S)))
+L=int(input("enter L value:"))
+B=int(input("enter B value:"))
+H=int(input("enter H value:"))
+print("area of rectangle is {}".format (rectangle(L,B,H)))
+M=int(input("enter M value:"))
+N=int(input("enter N value:"))
+print("area of triangle is {}".format (triangle(M,N)))
+
