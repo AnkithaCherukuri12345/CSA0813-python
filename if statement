@@ -1,0 +1,4 @@
+total =3000
+if(total>=3000):
+    total=total+500
+    print(total)
