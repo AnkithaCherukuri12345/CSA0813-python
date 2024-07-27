@@ -1,0 +1,6 @@
+def area ( m,r):
+    return m*r*r
+
+P=int(input("enter P value:"))
+R=int(input("enter R vlaue:"))
+print("area of circle is{}".format (area(P,R)))
