@@ -1,0 +1,8 @@
+def fact(n):
+    if n==0:
+        return 1
+    else:
+        return n*fact(n-1)
+a=5
+print("factorial of {}is {}".format(a,fact(a)))
+    
