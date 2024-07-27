@@ -1,0 +1,13 @@
+def palindrome():
+    num=141
+    n=0
+    rev=0
+    num=n
+    while (n<0):
+        rev=rev*10+n%10
+        n/=10
+    if rev==num:
+         print("palindrome")
+    else:
+            print("not palindrome")
+palindrome()       
