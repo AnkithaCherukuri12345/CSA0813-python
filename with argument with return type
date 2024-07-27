@@ -1,0 +1,5 @@
+def add(m,n):
+    return m+n
+a= int(input("enter a value:"))
+b=int(input("enter b value:"))
+print("sum of {} and{} is {}".format(a,b, add(a, b)))
