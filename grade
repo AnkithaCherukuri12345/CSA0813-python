@@ -1,0 +1,11 @@
+m=89
+if(m>90):
+    print("s grade")
+elif(m>80) and (m<90):
+    print("a grade")
+elif(m>70) and (m<80):
+    print("b gradre")
+else:
+    ptint("fail")
+    
+          
