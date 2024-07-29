@@ -1,0 +1,20 @@
+a=6
+b=4
+c=2
+
+d = (b * b) - (4 * a * c)
+
+if(d > 0):
+      root1 =(-b+math.sqrt(d)/ (2*a))
+      root2 =(-b-math.sqrt(d) / (2*a))
+      print("two distinct real roots exists: root1=%.2f and root2=-%.2f"%(root1,root2))
+elif(d == 0):
+      root1 = root2 = -b / (2*a)
+      print("two eual and real roots exists: root1=%.2f and root2=%.2f"%(root1,root2))
+else: 
+      root1 = root2 = -b /(2*a)
+      imaginary = math.sqrt(-d) /(2*a)
+      print(" two distinct complex roots exists: root1 =%.2f and root2 =%.2f-%.2f"%(root1,imaginary,root2,imaginary))
+            
+    
+
