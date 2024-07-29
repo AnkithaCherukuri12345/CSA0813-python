@@ -1,0 +1,14 @@
+a=3
+b=4
+c=2
+if(a>c):
+    if(a>c):
+        print("a is greater")
+    else:
+        print("b is greater")
+else:
+    if (b>c):
+        print("b is greater")
+    else:
+        print("c is greater")
+            
