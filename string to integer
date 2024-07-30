@@ -1,0 +1,4 @@
+def convert(b):
+    print(int(float(b)))
+    
+convert("15.78")
