@@ -1,0 +1,6 @@
+#strin g to float
+def convert(a):
+    print(float(a))
+
+
+print(convert("345"))
