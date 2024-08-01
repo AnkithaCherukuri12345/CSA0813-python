@@ -1,0 +1,4 @@
+import math
+
+number = int(input("Enter a number: "))
+print("Perfect square" if math.isqrt(number)**2 == number else "Not a perfect square")
