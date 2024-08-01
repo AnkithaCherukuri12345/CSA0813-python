@@ -1,0 +1,36 @@
+#string to int 
+a="1.23"
+print(int (float(a)))
+
+#remove duplicates
+a=[3,5,7,2,3,7,5]
+a=list(set(a))
+print(a)
+
+#average of a list
+a=[1,2,3,4,5]
+n=5
+sum=0
+for i in range(1,6):
+    sum+=i
+    result=sum/n
+
+print(result)
+
+#sum of even in list 
+a=[1,3,5,7,6,8]
+evensum=0
+for number in a:
+    if(number%2==0):
+        evensum+=number
+print(evensum)
+
+
+#perfect square or not
+import math  
+num = 10
+sqrt_num = math.sqrt(num)  
+if sqrt_num.is_integer():  
+    print("perfect square")  
+else:  
+    print("not a perfect square")
