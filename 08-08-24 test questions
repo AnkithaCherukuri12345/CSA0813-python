@@ -1,0 +1,59 @@
+#amstrong number
+num=395
+sum=0
+n=num
+while n>0:
+    sum+=(n%10) **4
+    n//=10
+if num == sum:
+   print(num,"is an amstrong number")
+else:
+  print(num," is not an amstrong number")
+
+
+
+#harshad number
+num=17
+sum=0
+n=num
+while n>0:
+    sum+=n%10
+    n//=10
+if (num% sum==0):
+    print(num,"is a Harshad number.")
+else:
+    print(num,"is not a Harshad number.")
+
+
+
+#happy or not happy
+def is_happy_number(n):
+    def get_next(number):
+        return sum(int(digit) ** 2 for digit in str(number))
+    seen_numbers = set()
+    while n != 1 and n not in seen_numbers:
+        seen_numbers.add(n)
+        n = get_next(n)
+    return n == 1
+    1````````   `number = int(input("Enter a number: "))
+if is_happy_number(number):
+    print(f"{number} is a happy number.")
+else:
+    print(f"{number} is not a happy number.")
+
+#tech num or not
+def is_tech_number(n):
+    str_n = str(n)
+    length = len(str_n)
+    if length % 2 != 0:
+        return False
+    first_half = int(str_n[:length // 2])
+    second_half = int(str_n[length // 2:])
+    return (first_half + second_half) ** 2 == n
+number = int(input("Enter a number: "))
+if is_tech_number(number):
+    print(f"{number} is a tech number.")
+else:
+    print(f"{number} is not a tech number.")
+
+
