@@ -1,0 +1,7 @@
+import math
+n=8
+r=6
+p=math.perm(n,r)
+c=math.comb(n,r)
+print(p)
+print(C)
